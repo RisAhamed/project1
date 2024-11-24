@@ -44,6 +44,3 @@ console_handler.setFormatter(formatter)
 # Add the console handler to the root logger
 logging.getLogger().addHandler(console_handler)
 
-# Example log messages
-logging.info("This is an info message.")
-logging.error("This is an error message.")
